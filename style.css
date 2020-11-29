@@ -1,0 +1,19 @@
+
+#logo{
+    display:block;
+    width:30%;
+    margin:auto auto;  
+}
+.button{
+}
+#dots{
+    width:20%;
+}
+header{
+    top:0;
+    display:flex;
+    justify-content: flex-end;
+}
+.headers{
+    margin:7px;
+}
