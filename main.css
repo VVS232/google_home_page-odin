@@ -46,12 +46,14 @@ display: block;
     border-radius: 18px;
     height:40px;
     margin-top: 30px;
+    border: solid 1px #dadce0;
+    background-color: white;
 }
 #search_but{
     display:flex;
-    width:15%;
+    width:100%;
     margin:27px auto;
-    justify-content: space-around;
+    justify-content: center;
 }
 #submit, #lucky{
     width: 128px;
@@ -59,6 +61,7 @@ display: block;
     background-color: rgb(248,249,250);
     border:none;
     font-size: 14px;
+    margin-right: 10px;
 }
 #ukr{
     width:100%;
