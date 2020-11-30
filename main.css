@@ -9,6 +9,8 @@ header{
     display:flex;
     width: 100%;
     justify-content: flex-end;
+    font-family: Arial, sans-serif;
+    margin-top: 4px;
 }
 .headers{
     margin:0 10px;
@@ -23,6 +25,7 @@ header{
     height: 37px;
     border-radius: 5px;
     margin-top:4px;
+    border:none;
 }
 #post, #pic{
     margin-top:15px;
@@ -134,3 +137,12 @@ height:2.5em
 body{
     margin:0;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#ukar{
+    color:blue;
+}
+
+
