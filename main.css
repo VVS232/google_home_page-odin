@@ -52,6 +52,15 @@ display: block;
     border: solid 1px #dadce0;
     background-color: white;
 }
+@media (max-width: 570px){
+    #search{
+        width:90vw;
+    }
+    .logo{
+        width:90vw;
+    }
+}
+
 #search_but{
     display:flex;
     width:100%;
@@ -85,12 +94,14 @@ footer{
     width: 100%;
     height: 5.2em;
     bottom:0;
+    background-color:#f2f2f2;
+
 }
 #foot-left, #foot-right{
     position: absolute;
     display: flex;
     bottom:0;
-    width:50%;
+    width:100%;
     margin-bottom: 4px;
 background-color:#f2f2f2;
 height:2.5em
@@ -104,6 +115,8 @@ height:2.5em
 }
 #foot-left{
     left:0;
+    z-index: 1;
+    background-color: transparent;
 }
 #foot-right{
     justify-content: flex-end;
@@ -134,6 +147,46 @@ height:2.5em
     margin-left: 15px;
     font-size: 13px;
 }
+@media (max-width:899px){
+    #how{
+        visibility: hidden;
+    }}
+    @media (max-width: 700px){
+        header{
+            flex-wrap: wrap;
+        }
+    #foot-left{
+        margin-bottom: 7em;
+        background-color:#f2f2f2;
+        left:0;
+        color:#717179;
+        margin-left: 0;
+        font-size: 9px;
+     }
+    #footup{
+        font-size: 9px;
+        width:4vw;
+        display: flex;
+margin-left: 70%;      
+  margin-bottom :1.3em;
+        z-index: 2;
+        background-color: transparent;
+        border: none;
+
+    }
+    #cond,#all{
+        visibility: collapse;
+    }
+
+    #foot-right{ 
+        font-size: 9px;
+    }
+}
+@media (max-width:380px){
+    #pic{
+        visibility: collapse;
+    }
+}
 body{
     margin:0;
 }
@@ -144,5 +197,4 @@ a{
 #ukar{
     color:blue;
 }
-
 
