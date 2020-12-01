@@ -180,6 +180,7 @@ margin-left: 70%;
 
     #foot-right{ 
         font-size: 9px;
+        justify-content: space-evenly;
     }
 }
 @media (max-width:380px){
